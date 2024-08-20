@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Quiz</title>
+    <link rel="stylesheet" href="nnnn.css">
+</head>
+<body style="background-image: url(https://img.freepik.com/premium-vector/international-music-day-concept-poster-vector-illustration_465127-134.jpg?w=1380);"> </body>
+<body>
+    <div class="container">
+        <div id="login" class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="quiz" class="quiz-container hidden">
+            <h2>Music Quiz</h2>
+            <div id="question"></div>
+            <div id="options" class="options-container"></div>
+            <audio id="audioPlayer" controls autoplay>
+                <source src="" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <script src="ss.js"></script>
+</body>
+</html>
